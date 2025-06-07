@@ -32,7 +32,7 @@ double sinn(double x, uint16_t count) {
     dsign *= -1;
     dres += calcItem(x, i) * dsign;
   }
-  return res;
+  return dres;
 }
 
 double cosn(double x, uint16_t count) {
